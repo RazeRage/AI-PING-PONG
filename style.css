@@ -1,20 +1,36 @@
-body{
+body {
     background-position: center;
     background-size: cover;
 }
-.heading{
+
+.heading {
     width: 100%;
     margin-bottom: 5px;
     text-align: left;
 }
-.heading h3{
+
+.heading h3 {
     display: inline;
     font-size: 22px;
 }
-.heading button{
+
+.heading button {
     float: right;
     border: 1px solid burlywood;
 }
-.status_label{
+
+.status_label {
     background-color: white;
+}
+
+footer {
+    background-color: grey;
+    line-height: 2;
+    margin-bottom: 0px;
+    bottom: 0px;
+    position: sticky;
+    width: 100%;
+}
+canvas{
+    background-position: center;
 }
